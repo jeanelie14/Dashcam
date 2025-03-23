@@ -26,6 +26,8 @@
     "react-native-permissions": "^3.9.0",
     "axios": "^1.4.0",
     "react-native-fs": "^2.20.0"
+   
+   
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
