@@ -250,6 +250,11 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation platform('com.google.firebase:firebase-bom:32.1.1')
+    
+    implementation 'com.google.firebase:firebase-messaging'
+
+    implementation("com.google.mlkit:face-detection:16.1.5") 
 
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules

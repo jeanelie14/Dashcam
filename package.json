@@ -10,24 +10,23 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-native": "0.70.10",
     "@react-native-async-storage/async-storage": "^1.17.7",
     "@react-native-community/geolocation": "^3.0.6",
     "@react-native-firebase/app": "^17.3.3",
+    "@react-native-firebase/messaging": "^17.5.0",
     "@react-native-firebase/storage": "^17.3.3",
-    "@react-native-firebase/messaging": "^17.3.3",
+    "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/stack": "^6.3.16",
-    "@react-navigation/bottom-tabs": "^6.5.7",
-    "react-native-sensors": "^7.3.5",
-    "react-native-geolocation-service": "^5.3.0",
-    "react-native-vector-icons": "^10.1.0",
-    "react-native-permissions": "^3.9.0",
     "axios": "^1.4.0",
-    "react-native-fs": "^2.20.0"
-   
-   
+    "react": "18.1.0",
+    "react-native": "0.70.10",
+    "react-native-face-detector": "^1.0.15",
+    "react-native-fs": "^2.20.0",
+    "react-native-geolocation-service": "^5.3.0",
+    "react-native-permissions": "^3.9.0",
+    "react-native-sensors": "^7.3.5",
+    "react-native-vector-icons": "^10.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
