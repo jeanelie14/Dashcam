@@ -21,6 +21,7 @@
     "android": "^0.0.8",
     "axios": "^1.4.0",
     "cd": "^0.3.3",
+    "DashCam": "file:",
     "react": "18.1.0",
     "react-native": "0.70.10",
     "react-native-face-detector": "^1.0.15",
