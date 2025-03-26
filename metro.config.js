@@ -1,3 +1,7 @@
+const {
+  wrapWithReanimatedMetroConfig,
+} = require('react-native-reanimated/metro-config');
+
 /**
  * Metro configuration for React Native
  * https://github.com/facebook/react-native
@@ -5,7 +9,8 @@
  * @format
  */
 
-module.exports = {
+// Configuration existante combinée avec Reanimated
+const config = {
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -15,3 +20,6 @@ module.exports = {
     }),
   },
 };
+
+// Exporter la configuration enveloppée pour Reanimated
+module.exports = wrapWithReanimatedMetroConfig(config);
