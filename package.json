@@ -23,7 +23,7 @@
     "react": "18.1.0",
     "react-native": "0.70.10",
     "react-native-background-task": "^0.2.1",
-    "react-native-bluetooth-serial": "^1.0.0-rc1",
+    "react-native-ble-plx": "^3.5.0",
     "react-native-face-detector": "^1.0.15",
     "react-native-fs": "^2.20.0",
     "react-native-geolocation-service": "^5.3.0",
