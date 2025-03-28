@@ -249,6 +249,7 @@ android {
 }
 
 dependencies {
+   // implementation "com.facebook.react:react-android:${rootProject.ext.reactNativeVersion}"
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation platform('com.google.firebase:firebase-bom:32.1.1')
      implementation "androidx.annotation:annotation:1.3.0"
